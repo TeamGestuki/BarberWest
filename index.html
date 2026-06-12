@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BARBER WEST</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ======================== NAVBAR ======================== -->
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">
+        <span class="brand-el"> BARBER </span><span class="brand-filo"> WEST</span>
+      </a>
+      <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarMenu">
+        <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-1">
+          <li class="nav-item"><a class="nav-link" href="#inicio">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link" href="#servicios">Servicios</a></li>
+          <li class="nav-item"><a class="nav-link" href="#barberos">Barberos</a></li>
+          <li class="nav-item"><a class="nav-link" href="#galeria">Galería</a></li>
+          <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+          <li class="nav-item ms-lg-2">
+            <a class="btn btn-outline-gold btn-sm" href="login.html">Ingresar</a>
+          </li>
+          <li class="nav-item ms-lg-1">
+            <a class="btn btn-gold btn-sm" href="registro.html">Reservar turno</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ======================== HERO ======================== -->
+  <section class="hero-section" id="inicio">
+    <div class="hero-slash"></div>
+    <div class="container h-100 position-relative">
+      <div class="row h-100 align-items-center">
+        <div class="col-lg-7">
+          <p class="hero-eyebrow">Buenos Aires · Desde 2025</p>
+          <h1 class="hero-title">
+            EL ARTE<br>
+            <span class="title-gold">DEL WEST.</span>
+          </h1>
+          <p class="hero-subtitle">
+            Cortes que hablan. Acabados que duran. <br>
+            Un lugar donde el oficio se respeta.
+          </p>
+          <div class="d-flex gap-3 flex-wrap mt-4">
+            <a href="registro.html" class="btn btn-gold btn-lg">Reservar turno</a>
+            <a href="#servicios" class="btn btn-outline-gold btn-lg">Ver servicios</a>
+          </div>
+          <div class="hero-stats d-flex gap-4 mt-5">
+            <div>
+              <span class="stat-num">15+</span>
+              <span class="stat-label">Años de experiencia</span>
+            </div>
+            <div class="stat-divider"></div>
+            <div>
+              <span class="stat-num">8K+</span>
+              <span class="stat-label">Clientes satisfechos</span>
+            </div>
+            <div class="stat-divider"></div>
+            <div>
+              <span class="stat-num">4</span>
+              <span class="stat-label">Barberos expertos</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-5 d-none d-lg-flex justify-content-end">
+          <div class="hero-img-frame">
+            <div class="hero-img-inner">
+              <img src="https://images.unsplash.com/photo-1585747860715-2ba37e788b70?w=500&q=80" alt="Barbero trabajando" class="hero-photo">
+            </div>
+            <div class="hero-img-badge">
+              <i class="bi bi-scissors"></i>
+              <span>Premium<br>Barbershop</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="hero-scroll-hint">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ======================== FRANJA ANUNCIO ======================== -->
+  <div class="announcement-bar">
+    <div class="announcement-track">
+      <span>CORTE · BARBA · AFEITADO · CEJAS · KERATINA · TINTURA · BARBA · AFEITADO · CEJAS · KERATINA · CORTE · TINTURA · AFEITADO · CEJAS · KERATINA ·&nbsp;</span>
+      <span>CORTE · BARBA · AFEITADO · CEJAS · KERATINA · TINTURA · BARBA · AFEITADO · CEJAS · KERATINA · CORTE · TINTURA · AFEITADO · CEJAS · KERATINA ·&nbsp;</span>
+    </div>
+  </div>
+
+  <!-- ======================== SOBRE NOSOTROS ======================== -->
+  <section class="about-section py-section" id="nosotros">
+    <div class="container">
+      <div class="row align-items-center g-5">
+        <div class="col-lg-5">
+          <div class="about-img-grid">
+            <img src="https://images.unsplash.com/photo-1503951914875-452162b0f3f1?w=400&q=80" alt="Interior barbería" class="about-img-main">
+            <img src="https://images.unsplash.com/photo-1621605815971-fbc98d665033?w=300&q=80" alt="Herramientas" class="about-img-side">
+            <div class="about-img-tag">
+              <i class="bi bi-award-fill"></i>
+              <span>Calidad garantizada</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 offset-lg-1">
+          <p class="section-eyebrow">Quiénes somos</p>
+          <h2 class="section-title">Más que una barbería.<br><span class="text-gold">Un ritual.</span></h2>
+          <p class="section-body">
+            En <strong>Barber West</strong> entendemos que un buen corte no es solo estética: es confianza, es carácter. Desde el 2009 trabajamos con dedicación artesanal, combinando técnica clásica con tendencias actuales.
+          </p>
+          <p class="section-body">
+            Cada silla en nuestro local es un espacio de respeto por el oficio. Venís, te sentás, y salís siendo vos — pero mejor.
+          </p>
+          <div class="about-features mt-4">
+            <div class="about-feature-item">
+              <i class="bi bi-check2-circle text-gold fs-5"></i>
+              <span>Productos de primera línea</span>
+            </div>
+            <div class="about-feature-item">
+              <i class="bi bi-check2-circle text-gold fs-5"></i>
+              <span>Turnos con horario garantizado</span>
+            </div>
+            <div class="about-feature-item">
+              <i class="bi bi-check2-circle text-gold fs-5"></i>
+              <span>Ambiente cómodo y auténtico</span>
+            </div>
+          </div>
+          <a href="#servicios" class="btn btn-gold mt-4">Ver nuestros servicios</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================== SERVICIOS ======================== -->
+  <section class="services-section py-section" id="servicios">
+    <div class="container">
+      <div class="text-center mb-5">
+        <p class="section-eyebrow">Lo que hacemos</p>
+        <h2 class="section-title">Servicios</h2>
+      </div>
+      <div class="row g-4">
+
+        <div class="col-md-6 col-lg-3">
+          <div class="service-card h-100">
+            <div class="service-icon"><i class="bi bi-scissors"></i></div>
+            <h3 class="service-title">Corte Clásico</h3>
+            <p class="service-desc">Tijera o máquina. Fade bajo, medio o alto. El corte que nunca pasa de moda, ejecutado a la perfección.</p>
+            <div class="service-footer">
+              <span class="service-price">$3.500</span>
+              <a href="registro.html" class="btn-service-link">Reservar <i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3">
+          <div class="service-card service-card--featured h-100">
+            <div class="service-badge">Popular</div>
+            <div class="service-icon"><i class="bi bi-star-fill"></i></div>
+            <h3 class="service-title">Combo Completo</h3>
+            <p class="service-desc">Corte + barba + cejas. El paquete total para salir listo para cualquier cosa que venga.</p>
+            <div class="service-footer">
+              <span class="service-price">$6.500</span>
+              <a href="registro.html" class="btn-service-link">Reservar <i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3">
+          <div class="service-card h-100">
+            <div class="service-icon"><i class="bi bi-moisture"></i></div>
+            <h3 class="service-title">Barba & Perfil</h3>
+            <p class="service-desc">Delineado, relleno, hidratación con aceites. La barba bien tratada cambia toda la cara.</p>
+            <div class="service-footer">
+              <span class="service-price">$2.800</span>
+              <a href="registro.html" class="btn-service-link">Reservar <i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3">
+          <div class="service-card h-100">
+            <div class="service-icon"><i class="bi bi-droplet-fill"></i></div>
+            <h3 class="service-title">Afeitado Navaja</h3>
+            <p class="service-desc">Toalla caliente, espuma de afeitar artesanal, navaja recta. Una experiencia que pocos conocen.</p>
+            <div class="service-footer">
+              <span class="service-price">$4.200</span>
+              <a href="registro.html" class="btn-service-link">Reservar <i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================== BARBEROS ======================== -->
+  <section class="barbers-section py-section" id="barberos">
+    <div class="container">
+      <div class="text-center mb-5">
+        <p class="section-eyebrow">El equipo</p>
+        <h2 class="section-title">Nuestros <span class="text-gold">Barberos</span></h2>
+      </div>
+      <div class="row g-4 justify-content-center">
+
+        <div class="col-sm-6 col-lg-3">
+          <div class="barber-card">
+            <div class="barber-img-wrap">
+              <img src="https://images.unsplash.com/photo-1557862921-37829c790f19?w=300&q=80" alt="Rodrigo M." class="barber-img">
+              <div class="barber-overlay">
+                <a href="registro.html" class="btn btn-gold btn-sm">Reservar turno</a>
+              </div>
+            </div>
+            <div class="barber-info">
+              <h4 class="barber-name">Rodrigo M.</h4>
+              <span class="barber-spec">Fades & Texturas</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-lg-3">
+          <div class="barber-card">
+            <div class="barber-img-wrap">
+              <img src="https://images.unsplash.com/photo-1605462863863-10d9e47e15ee?w=300&q=80" alt="Tomás B." class="barber-img">
+              <div class="barber-overlay">
+                <a href="registro.html" class="btn btn-gold btn-sm">Reservar turno</a>
+              </div>
+            </div>
+            <div class="barber-info">
+              <h4 class="barber-name">Tomás B.</h4>
+              <span class="barber-spec">Corte Clásico & Navaja</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-lg-3">
+          <div class="barber-card">
+            <div class="barber-img-wrap">
+              <img src="https://images.unsplash.com/photo-1622286342621-4bd786c2447c?w=300&q=80" alt="Nicolás P." class="barber-img">
+              <div class="barber-overlay">
+                <a href="registro.html" class="btn btn-gold btn-sm">Reservar turno</a>
+              </div>
+            </div>
+            <div class="barber-info">
+              <h4 class="barber-name">Nicolás P.</h4>
+              <span class="barber-spec">Barba & Diseño</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-lg-3">
+          <div class="barber-card">
+            <div class="barber-img-wrap">
+              <img src="https://images.unsplash.com/photo-1534308143481-c55f00be8bd7?w=300&q=80" alt="Mateo V." class="barber-img">
+              <div class="barber-overlay">
+                <a href="registro.html" class="btn btn-gold btn-sm">Reservar turno</a>
+              </div>
+            </div>
+            <div class="barber-info">
+              <h4 class="barber-name">Mateo V.</h4>
+              <span class="barber-spec">Urbano & Skin Fade</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================== GALERÍA ======================== -->
+  <section class="gallery-section py-section" id="galeria">
+    <div class="container">
+      <div class="text-center mb-5">
+        <p class="section-eyebrow">Nuestro trabajo</p>
+        <h2 class="section-title">Galería</h2>
+      </div>
+      <div class="gallery-grid">
+        <div class="gallery-item gallery-item--tall">
+          <img src="https://images.unsplash.com/photo-1599351431202-1e0f0137899a?w=400&q=80" alt="Trabajo 1">
+          <div class="gallery-hover"><i class="bi bi-zoom-in"></i></div>
+        </div>
+        <div class="gallery-item">
+          <img src="https://images.unsplash.com/photo-1580618672591-eb180b1a973f?w=400&q=80" alt="Trabajo 2">
+          <div class="gallery-hover"><i class="bi bi-zoom-in"></i></div>
+        </div>
+        <div class="gallery-item">
+          <img src="https://images.unsplash.com/photo-1593702288056-7cc9a7a5a261?w=400&q=80" alt="Trabajo 3">
+          <div class="gallery-hover"><i class="bi bi-zoom-in"></i></div>
+        </div>
+        <div class="gallery-item gallery-item--wide">
+          <img src="https://images.unsplash.com/photo-1517832207067-4db24a2ae47c?w=600&q=80" alt="Interior barbería">
+          <div class="gallery-hover"><i class="bi bi-zoom-in"></i></div>
+        </div>
+        <div class="gallery-item">
+          <img src="https://images.unsplash.com/photo-1560869713-7d0a29430803?w=400&q=80" alt="Trabajo 5">
+          <div class="gallery-hover"><i class="bi bi-zoom-in"></i></div>
+        </div>
+        <div class="gallery-item">
+          <img src="https://images.unsplash.com/photo-1588951833685-4d98c34e3aa0?w=400&q=80" alt="Trabajo 6">
+          <div class="gallery-hover"><i class="bi bi-zoom-in"></i></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================== CTA ======================== -->
+  <section class="cta-section">
+    <div class="cta-bg"></div>
+    <div class="container position-relative">
+      <div class="row justify-content-center text-center">
+        <div class="col-lg-7">
+          <p class="section-eyebrow">¿Estás listo?</p>
+          <h2 class="cta-title">Tu próximo corte<br><span class="text-gold">te está esperando.</span></h2>
+          <p class="cta-body">Reservá tu turno online en segundos. Sin llamadas, sin espera.</p>
+          <div class="d-flex justify-content-center gap-3 flex-wrap mt-4">
+            <a href="registro.html" class="btn btn-gold btn-lg">Crear cuenta y reservar</a>
+            <a href="login.html" class="btn btn-outline-gold btn-lg">Ya tengo cuenta</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================== FOOTER ======================== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="row g-4">
+        <div class="col-lg-4">
+          <div class="footer-brand">
+            <span class="brand-el">BARBER</span><span class="brand-filo"> WEST</span>
+          </div>
+          <p class="footer-tagline">El arte del filo, la precisión del corte.</p>
+          <div class="footer-social">
+            <a href="#" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+            <a href="#" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+            <a href="#" aria-label="WhatsApp"><i class="bi bi-whatsapp"></i></a>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-2 offset-lg-1">
+          <h5 class="footer-heading">Sitio</h5>
+          <ul class="footer-links">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="#servicios">Servicios</a></li>
+            <li><a href="#barberos">Barberos</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+          </ul>
+        </div>
+        <div class="col-sm-6 col-lg-2">
+          <h5 class="footer-heading">Mi cuenta</h5>
+          <ul class="footer-links">
+            <li><a href="registro.html">Registrarse</a></li>
+            <li><a href="login.html">Ingresar</a></li>
+            <li><a href="cliente/turnos.php">Mis turnos</a></li>
+            <li><a href="cliente/perfil.php">Mi perfil</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-3">
+          <h5 class="footer-heading">Contacto</h5>
+          <ul class="footer-contact-list">
+            <li><i class="bi bi-geo-alt-fill"></i> Av. Corrientes 1234, CABA</li>
+            <li><i class="bi bi-clock-fill"></i> Lun–Sáb 9:00 – 20:00</li>
+            <li><i class="bi bi-telephone-fill"></i> +54 11 4567-8901</li>
+            <li><i class="bi bi-envelope-fill"></i> turno@elfilo.com.ar</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2025 Barber West · Todos los derechos reservados</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
