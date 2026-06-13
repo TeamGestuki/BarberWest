@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>BLEST BARBER</title>
+  <title>Blest Barber Shop</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
@@ -15,7 +15,7 @@
   <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
     <div class="container">
       <a class="navbar-brand" href="index.html">
-        <span class="brand-el"> BLEST </span><span class="brand-filo"> BARBER</span>
+        <span class="brand-el">BLEST</span><span class="brand-filo"> BARBER</span>
       </a>
       <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu">
         <span class="navbar-toggler-icon"></span>
@@ -24,8 +24,29 @@
         <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-1">
           <li class="nav-item"><a class="nav-link" href="#inicio">Inicio</a></li>
           <li class="nav-item"><a class="nav-link" href="#servicios">Servicios</a></li>
-          <li class="nav-item"><a class="nav-link" href="#barberos">Barberos</a></li>
-          <li class="nav-item"><a class="nav-link" href="#galeria">Galería</a></li>
+
+          <!-- DROPDOWN SEDES — usa data-bs-toggle="dropdown", sin hover CSS -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button"
+               data-bs-toggle="dropdown" data-bs-auto-close="true" aria-expanded="false">
+              Sedes
+            </a>
+            <ul class="dropdown-menu">
+              <li>
+                <a class="dropdown-item" href="SedeNaon.html">
+                  <i class="bi bi-geo-alt-fill"></i>
+                  Sede Naón
+                </a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="SedeVLuro.html">
+                  <i class="bi bi-geo-alt-fill"></i>
+                  Sede Villa Luro
+                </a>
+              </li>
+            </ul>
+          </li>
+
           <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
           <li class="nav-item ms-lg-2">
             <a class="btn btn-outline-gold btn-sm" href="login.html">Ingresar</a>
@@ -74,25 +95,21 @@
 
   <!-- ======================== FRANJA ANUNCIO ======================== -->
   <div class="announcement-bar">
-  <div class="announcement-track">
-
-    <div class="announcement-content">
-      <span>CORTE · BARBA · AFEITADO · CEJAS · KERATINA · TINTURA · </span>
-      <span>CORTE · BARBA · AFEITADO · CEJAS · KERATINA · TINTURA · </span>
-      <span>CORTE · BARBA · AFEITADO · CEJAS · KERATINA · TINTURA · </span>
-      <span>CORTE · BARBA · AFEITADO · CEJAS · KERATINA · TINTURA · </span>
+    <div class="announcement-track">
+      <div class="announcement-content">
+        <span>CORTE · BARBA · AFEITADO · CEJAS · KERATINA · TINTURA · </span>
+        <span>CORTE · BARBA · AFEITADO · CEJAS · KERATINA · TINTURA · </span>
+        <span>CORTE · BARBA · AFEITADO · CEJAS · KERATINA · TINTURA · </span>
+        <span>CORTE · BARBA · AFEITADO · CEJAS · KERATINA · TINTURA · </span>
+      </div>
+      <div class="announcement-content">
+        <span>CORTE · BARBA · AFEITADO · CEJAS · KERATINA · TINTURA · </span>
+        <span>CORTE · BARBA · AFEITADO · CEJAS · KERATINA · TINTURA · </span>
+        <span>CORTE · BARBA · AFEITADO · CEJAS · KERATINA · TINTURA · </span>
+        <span>CORTE · BARBA · AFEITADO · CEJAS · KERATINA · TINTURA · </span>
+      </div>
     </div>
-
-    <!-- Duplicado -->
-    <div class="announcement-content">
-      <span>CORTE · BARBA · AFEITADO · CEJAS · KERATINA · TINTURA · </span>
-      <span>CORTE · BARBA · AFEITADO · CEJAS · KERATINA · TINTURA · </span>
-      <span>CORTE · BARBA · AFEITADO · CEJAS · KERATINA · TINTURA · </span>
-      <span>CORTE · BARBA · AFEITADO · CEJAS · KERATINA · TINTURA · </span>
-    </div>
-
   </div>
-</div>
 
   <!-- ======================== SOBRE NOSOTROS ======================== -->
   <section class="about-section py-section" id="nosotros">
@@ -112,7 +129,7 @@
           <p class="section-eyebrow">Quiénes somos</p>
           <h2 class="section-title">Más que una barbería.<br><span class="text-gold">Un ritual.</span></h2>
           <p class="section-body">
-            En <strong>Blest Barber Shop</strong> entendemos que un buen corte no es solo estética: es confianza, es carácter. Desde el 2009 trabajamos con dedicación artesanal, combinando técnica clásica con tendencias actuales.
+            En <strong>Blest Barber Shop</strong> entendemos que un buen corte no es solo estética: es confianza, es carácter. Desde el 2020 trabajamos con dedicación artesanal, combinando técnica clásica con tendencias actuales.
           </p>
           <p class="section-body">
             Cada silla en nuestro local es un espacio de respeto por el oficio. Venís, te sentás, y salís siendo vos — pero mejor.
@@ -144,7 +161,7 @@
         <p class="section-eyebrow">Lo que hacemos</p>
         <h2 class="section-title">Servicios</h2>
       </div>
-      <div class="row g-4" justify-content-center>
+      <div class="row g-4 justify-content-center">
 
         <div class="col-md-6 col-lg-4">
           <div class="service-card h-100">
@@ -163,7 +180,7 @@
             <div class="service-badge">Popular</div>
             <div class="service-icon"><i class="bi bi-star-fill"></i></div>
             <h3 class="service-title">Corte + Barba</h3>
-            <p class="service-desc">Corte completo + alineación, rebaje y perfilado barba.</p>
+            <p class="service-desc">Corte completo + alineación, rebaje y perfilado de barba.</p>
             <div class="service-footer">
               <span class="service-price">$22.000</span>
               <a href="registro.html" class="btn-service-link">Reservar <i class="bi bi-arrow-right"></i></a>
@@ -174,7 +191,7 @@
         <div class="col-md-6 col-lg-4">
           <div class="service-card h-100">
             <div class="service-icon"><i class="bi bi-moisture"></i></div>
-            <h3 class="service-title">Solo barba</h3>
+            <h3 class="service-title">Solo Barba</h3>
             <p class="service-desc">Alineación, rebaje y perfilado.</p>
             <div class="service-footer">
               <span class="service-price">$12.000</span>
@@ -210,8 +227,8 @@
         <div class="col-md-6 col-lg-4">
           <div class="service-card h-100">
             <div class="service-icon"><i class="bi bi-magic"></i></div>
-            <h3 class="service-title">Perfilado cejas / Diseño & Freestyle</h3>
-            <p class="service-desc"></p>
+            <h3 class="service-title">Diseño & Freestyle</h3>
+            <p class="service-desc">Perfilado de cejas, diseño y freestyle. Incluido en cualquier servicio.</p>
             <div class="service-footer">
               <span class="service-price">GRATIS</span>
             </div>
@@ -221,129 +238,19 @@
       </div>
     </div>
   </section>
-  
 
-  <!-- ======================== BARBEROS ======================== -->
-  <section class="barbers-section py-section" id="barberos">
-    <div class="container">
-      <div class="text-center mb-5">
-        <p class="section-eyebrow">El equipo</p>
-        <h2 class="section-title">Nuestros <span class="text-gold">Barberos</span></h2>
-      </div>
-      <div class="row g-4 justify-content-center">
-
-        <div class="col-sm-6 col-lg-3">
-          <div class="barber-card">
-            <div class="barber-img-wrap">
-              <img src="https://images.unsplash.com/photo-1557862921-37829c790f19?w=300&q=80" alt="Rodrigo M." class="barber-img">
-              <div class="barber-overlay">
-                <a href="registro.html" class="btn btn-gold btn-sm">Reservar turno</a>
-              </div>
-            </div>
-            <div class="barber-info">
-              <h4 class="barber-name">Rodrigo M.</h4>
-              <span class="barber-spec">Fades & Texturas</span>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-sm-6 col-lg-3">
-          <div class="barber-card">
-            <div class="barber-img-wrap">
-              <img src="https://images.unsplash.com/photo-1605462863863-10d9e47e15ee?w=300&q=80" alt="Tomás B." class="barber-img">
-              <div class="barber-overlay">
-                <a href="registro.html" class="btn btn-gold btn-sm">Reservar turno</a>
-              </div>
-            </div>
-            <div class="barber-info">
-              <h4 class="barber-name">Tomás B.</h4>
-              <span class="barber-spec">Corte Clásico & Navaja</span>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-sm-6 col-lg-3">
-          <div class="barber-card">
-            <div class="barber-img-wrap">
-              <img src="https://images.unsplash.com/photo-1622286342621-4bd786c2447c?w=300&q=80" alt="Nicolás P." class="barber-img">
-              <div class="barber-overlay">
-                <a href="registro.html" class="btn btn-gold btn-sm">Reservar turno</a>
-              </div>
-            </div>
-            <div class="barber-info">
-              <h4 class="barber-name">Nicolás P.</h4>
-              <span class="barber-spec">Barba & Diseño</span>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-sm-6 col-lg-3">
-          <div class="barber-card">
-            <div class="barber-img-wrap">
-              <img src="https://images.unsplash.com/photo-1534308143481-c55f00be8bd7?w=300&q=80" alt="Mateo V." class="barber-img">
-              <div class="barber-overlay">
-                <a href="registro.html" class="btn btn-gold btn-sm">Reservar turno</a>
-              </div>
-            </div>
-            <div class="barber-info">
-              <h4 class="barber-name">Mateo V.</h4>
-              <span class="barber-spec">Urbano & Skin Fade</span>
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </div>
-  </section>
-
-  <!-- ======================== GALERÍA ======================== -->
-  <section class="gallery-section py-section" id="galeria">
-    <div class="container">
-      <div class="text-center mb-5">
-        <p class="section-eyebrow">Nuestro trabajo</p>
-        <h2 class="section-title">Galería</h2>
-      </div>
-      <div class="gallery-grid">
-        <div class="gallery-item gallery-item--tall">
-          <img src="https://images.unsplash.com/photo-1599351431202-1e0f0137899a?w=400&q=80" alt="Trabajo 1">
-          <div class="gallery-hover"><i class="bi bi-zoom-in"></i></div>
-        </div>
-        <div class="gallery-item">
-          <img src="https://images.unsplash.com/photo-1580618672591-eb180b1a973f?w=400&q=80" alt="Trabajo 2">
-          <div class="gallery-hover"><i class="bi bi-zoom-in"></i></div>
-        </div>
-        <div class="gallery-item">
-          <img src="https://images.unsplash.com/photo-1593702288056-7cc9a7a5a261?w=400&q=80" alt="Trabajo 3">
-          <div class="gallery-hover"><i class="bi bi-zoom-in"></i></div>
-        </div>
-        <div class="gallery-item gallery-item--wide">
-          <img src="https://images.unsplash.com/photo-1517832207067-4db24a2ae47c?w=600&q=80" alt="Interior barbería">
-          <div class="gallery-hover"><i class="bi bi-zoom-in"></i></div>
-        </div>
-        <div class="gallery-item">
-          <img src="https://images.unsplash.com/photo-1560869713-7d0a29430803?w=400&q=80" alt="Trabajo 5">
-          <div class="gallery-hover"><i class="bi bi-zoom-in"></i></div>
-        </div>
-        <div class="gallery-item">
-          <img src="https://images.unsplash.com/photo-1588951833685-4d98c34e3aa0?w=400&q=80" alt="Trabajo 6">
-          <div class="gallery-hover"><i class="bi bi-zoom-in"></i></div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ======================== CTA ======================== -->
+  <!-- ======================== CTA SEDES ======================== -->
   <section class="cta-section">
     <div class="cta-bg"></div>
     <div class="container position-relative">
       <div class="row justify-content-center text-center">
         <div class="col-lg-7">
-          <p class="section-eyebrow">¿Estás listo?</p>
-          <h2 class="cta-title">Tu próximo corte<br><span class="text-gold">te está esperando.</span></h2>
-          <p class="cta-body">Reservá tu turno online en segundos. Sin llamadas, sin espera.</p>
+          <p class="section-eyebrow">Dos ubicaciones</p>
+          <h2 class="cta-title">Encontranos cerca<br><span class="text-gold">de vos.</span></h2>
+          <p class="cta-body">Tenemos dos sedes en CABA. Elegí la que te quede más cómoda y reservá tu turno online.</p>
           <div class="d-flex justify-content-center gap-3 flex-wrap mt-4">
-            <a href="registro.html" class="btn btn-gold btn-lg">Crear cuenta y reservar</a>
-            <a href="login.html" class="btn btn-outline-gold btn-lg">Ya tengo cuenta</a>
+            <a href="sede-naon.html" class="btn btn-gold btn-lg">Sede Naón</a>
+            <a href="sede-villa-luro.html" class="btn btn-outline-gold btn-lg">Sede Villa Luro</a>
           </div>
         </div>
       </div>
@@ -362,7 +269,7 @@
           <div class="footer-social">
             <a href="https://www.instagram.com/blestbarbershop/" target="_blank" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
             <a href="https://www.tiktok.com/@blestbarbershop00" target="_blank" aria-label="TikTok"><i class="bi bi-tiktok"></i></a>
-            <a href="https://api.whatsapp.com/send/?phone=5491151267271&text&type=phone_number&app_absent=0" target="_blank" aria-label="WhatsApp"><i class="bi bi-whatsapp"></i></a>
+            <a href="https://api.whatsapp.com/send/?phone=5491151267271" target="_blank" aria-label="WhatsApp"><i class="bi bi-whatsapp"></i></a>
           </div>
         </div>
         <div class="col-sm-6 col-lg-2 offset-lg-1">
@@ -370,7 +277,8 @@
           <ul class="footer-links">
             <li><a href="index.html">Inicio</a></li>
             <li><a href="#servicios">Servicios</a></li>
-            <li><a href="#barberos">Barberos</a></li>
+            <li><a href="SedeNaon.html">Sede Naón</a></li>
+            <li><a href="SedeVLuro.html">Sede Villa Luro</a></li>
             <li><a href="contacto.html">Contacto</a></li>
           </ul>
         </div>
@@ -386,8 +294,9 @@
         <div class="col-lg-3">
           <h5 class="footer-heading">Contacto</h5>
           <ul class="footer-contact-list">
-            <li><i class="bi bi-geo-alt-fill"></i> <a href="https://maps.google.com/?q=Montiel+1551,+Barrio+Naón,+CABA" target="_blank">Montiel 1551, Barrio Naón, CABA</a></li>
-            <li><i class="bi bi-clock-fill"></i> Mar–Sáb 10:30 a 13:00 hs / 14:30 a 20:00 hs</li>
+            <li><i class="bi bi-geo-alt-fill"></i> Montiel 1551, Barrio Naón</li>
+            <li><i class="bi bi-geo-alt-fill"></i> Av. Rivadavia 10545, Villa Luro</li>
+            <li><i class="bi bi-clock-fill"></i> Mar–Sáb 10:30–13:00 / 14:30–20:00</li>
             <li><i class="bi bi-telephone-fill"></i> +54 9 11 5126-7271</li>
             <li><i class="bi bi-envelope-fill"></i> Juancruzargentina05@gmail.com</li>
           </ul>
